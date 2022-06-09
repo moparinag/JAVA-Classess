@@ -1,22 +1,23 @@
-class ForLoopnum6
+class ForLoopnum8
 {
 public static void main(String[] args)
 {
 java.util.Scanner scn=new java.util.Scanner(System.in);
-System.out.println("Enter n Value");
+System.out.println("Enter n value");
 int n=scn.nextInt();
 for(int i=1;i<=n;i++)
 {
 	for(int j=1;j<=n;j++)
 	{
-		if(i==j||i+j==n+1)
+		if(j<=i)
 		{
-	System.out.print("*");
+			System.out.print(j);
 		}
 		else
 		{
 			System.out.print(" ");
 		}
+		
 	}
 	System.out.println();
 }
