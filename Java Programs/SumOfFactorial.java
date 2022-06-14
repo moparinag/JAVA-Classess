@@ -1,13 +1,20 @@
 class SumOfFactorial
 {
+	//Strong Number
 public static void main(String[] args)
 {
 java.util.Scanner scn=new java.util.Scanner(System.in);
 System.out.println("Enter n Value");
 int n=scn.nextInt();
-System.out.println(SumOfFactorial(n));
+if(n==SumOfFactorial(n))
+{
+System.out.println(SumOfFactorial(n)+"is Strong Number");
 }
-
+else
+{
+	System.out.println("Not Strong Number");
+}
+}
 public static int factorial(int a)
 {
 int fac=1;
