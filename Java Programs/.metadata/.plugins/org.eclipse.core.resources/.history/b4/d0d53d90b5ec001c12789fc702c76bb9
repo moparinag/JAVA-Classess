@@ -1,0 +1,24 @@
+package EclipsePrograms;
+
+public class StatNonStat {
+	static int m=100;
+	int n;
+	String s;
+
+	public void Demo()
+	{
+		System.out.println("m="+m);
+		System.out.println("n="+n);
+	}
+	public static void Demo1()
+	{
+		System.out.println("m1="+m);
+	}
+	public static void main(String[] args) {
+		StatNonStat s=new StatNonStat();
+		s.s="Mona";
+		System.out.print(s);
+
+	}
+
+}

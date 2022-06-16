@@ -1,0 +1,13 @@
+package EclipsePrograms;
+
+public class StatNonStat {
+	static int m;
+	int n;
+	String s;
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
