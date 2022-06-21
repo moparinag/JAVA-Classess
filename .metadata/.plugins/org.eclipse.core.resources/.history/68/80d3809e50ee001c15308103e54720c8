@@ -1,0 +1,21 @@
+package EclipsePrograms;
+
+import java.util.Scanner;
+
+public class Test1 {
+
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter Constructor parameter");
+		int l=s.nextInt();
+		int b=s.nextInt();
+		int h=s.nextInt();
+	Box box=new Box(l);
+	System.out.println(box.Display()+"Display same value");
+	Box box1=new Box(l,b,h);
+	box1.Display();
+	Box box2=new Box();
+	box2.Display();
+	}
+
+}
