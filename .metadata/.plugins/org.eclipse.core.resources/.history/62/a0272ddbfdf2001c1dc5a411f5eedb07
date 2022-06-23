@@ -17,6 +17,6 @@ class Hide2
 	public static void main(String[] args)
 	{
 		Hide2 h=new Hide2();
-		h.m1();
+		
 	}
 }

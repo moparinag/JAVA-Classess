@@ -1,5 +1,3 @@
-package EclipsePrograms;
-
 class Hide1
 {
 	public static void m1()
