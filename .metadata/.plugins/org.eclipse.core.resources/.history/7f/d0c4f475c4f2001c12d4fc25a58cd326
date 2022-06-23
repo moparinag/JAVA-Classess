@@ -1,0 +1,8 @@
+package EclipsePrograms;
+
+public class Chain1 {
+Chain1()
+{
+	System.out.println("Chain1 Constructor");
+}
+}

@@ -1,0 +1,15 @@
+package EclipsePrograms;
+
+public class Chain2 extends Chain1{
+Chain2(int a)
+{
+	System.out.println(a);
+	System.out.println("Chain2 Constructor");
+}
+	public static void main(String[] args) {
+		System.out.println("Main Starts");
+		Chain2 c=new Chain2(10);
+		System.out.println("Main Ends");
+	}
+
+}

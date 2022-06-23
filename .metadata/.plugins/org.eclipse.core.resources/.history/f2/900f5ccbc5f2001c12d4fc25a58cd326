@@ -1,0 +1,8 @@
+package EclipsePrograms;
+
+public class SBI extends RBI {
+public static void main(String[] args) {
+	SBI s=new SBI();
+	s.loan();
+}
+}

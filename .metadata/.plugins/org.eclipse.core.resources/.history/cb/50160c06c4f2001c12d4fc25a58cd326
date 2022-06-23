@@ -1,0 +1,14 @@
+package EclipsePrograms;
+
+public class Chain2 {
+Chain2()
+{
+	System.out.println("Chain2 Constructor");
+}
+	public static void main(String[] args) {
+		System.out.println("Main Starts");
+		Chain2 c=new Chain2();
+		System.out.println("Main Ends");
+	}
+
+}
