@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="EclipsePrograms.FinalWithMethod"/>
+    <fullyQualifiedTypeName name="EclipsePrograms.SBI"/>
+    <fullyQualifiedTypeName name="EclipsePrograms.FinalKeyword"/>
+    <fullyQualifiedTypeName name="EclipsePrograms.Super2"/>
+    <fullyQualifiedTypeName name="EclipsePrograms.Super1"/>
+    <fullyQualifiedTypeName name="EclipsePrograms.Cast1"/>
+    <fullyQualifiedTypeName name="EclipsePrograms.PrintVar"/>
+    <fullyQualifiedTypeName name="EclipsePrograms.Animal"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+</qualifiedTypeNameHistroy>
