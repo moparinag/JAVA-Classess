@@ -9,4 +9,6 @@
     <fullyQualifiedTypeName name="EclipsePrograms.PrintVar"/>
     <fullyQualifiedTypeName name="EclipsePrograms.Animal"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="EclipsePrograms.Interface1"/>
+    <fullyQualifiedTypeName name="EclipsePrograms.Implemented"/>
 </qualifiedTypeNameHistroy>

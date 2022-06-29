@@ -1,10 +1,8 @@
 package EclipsePrograms;
 
-public class MainClass1 
-{
-	
-	public static void main(String[] args)
-	{
+public class MainClass1 {
+
+	public static void main(String[] args) {
 		int x=3;
 		int y=5;
 		int z=10;
@@ -19,5 +17,3 @@ public class MainClass1
 	}
 
 }
-
-

@@ -3,8 +3,11 @@ package EclipsePrograms;
 public class MainClass1 
 {
 	
-	public static void main(String[] args)
+	for ( int i = 99; i>=0; i/9 )
 	{
+		
+	}
+	public static void main(String[] args) {
 		int x=3;
 		int y=5;
 		int z=10;
