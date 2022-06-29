@@ -10,7 +10,7 @@ public class Super2 extends Super1{
 	}
 	public static void Test3()
 	{
-		//super.Test1();
+		super.Test1();
 	}
 	public static void main(String[] args) {
 		Super2 s=new Super2();

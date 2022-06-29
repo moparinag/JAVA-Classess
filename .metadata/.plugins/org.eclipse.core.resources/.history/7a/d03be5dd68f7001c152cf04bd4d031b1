@@ -1,0 +1,12 @@
+package EclipsePrograms;
+
+public abstract class Demo1 {
+	//abstract method
+abstract void launch();
+abstract void close();
+// Concrete method
+public void open()
+{
+	
+}
+}

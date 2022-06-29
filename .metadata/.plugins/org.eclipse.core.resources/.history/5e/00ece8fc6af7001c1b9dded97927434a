@@ -1,0 +1,18 @@
+package EclipsePrograms;
+
+public class Edge extends Demo1 {
+Edge()
+{
+	System.out.println("Edge Class Constructor");
+}
+	@Override
+	void launch() {
+		System.out.println("Edge Launch");
+	}
+
+	@Override
+	void close() {
+		System.out.println("Edge Close");
+	}
+
+}
