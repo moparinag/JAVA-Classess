@@ -6,7 +6,7 @@ public interface Interface1
 void m1();
 void m2();
 void m3();
-static void m4()
+default void m4()
 {
 	
 }
