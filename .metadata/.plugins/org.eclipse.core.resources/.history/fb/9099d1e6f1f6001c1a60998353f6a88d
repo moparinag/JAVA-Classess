@@ -1,9 +1,0 @@
-package EclipsePrograms;
-
-public class Super1 {
-int i=34566;
-public static void Test1()
-{
-	System.out.println("Test1");
-}
-}

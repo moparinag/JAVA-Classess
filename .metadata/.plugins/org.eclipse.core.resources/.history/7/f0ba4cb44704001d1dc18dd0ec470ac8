@@ -9,7 +9,7 @@ public class StringCountCharacter {
 		System.out.println(s.indexOf('j'));
 	}
 
-	static int count(String s, char c) {
+	private static int count(String s, char c) {
 		
 		return s.length()-s.replace(c+"", "").length();
 	}
