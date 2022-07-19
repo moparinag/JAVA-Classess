@@ -15,4 +15,6 @@
     <fullyQualifiedTypeName name="EclipsePrograms.Address"/>
     <fullyQualifiedTypeName name="EclipsePrograms.Student1"/>
     <fullyQualifiedTypeName name="EclipsePrograms.StringPrograms.StringProgram1"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
 </qualifiedTypeNameHistroy>

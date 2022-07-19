@@ -10,5 +10,5 @@ public class StringSubString {
 		System.out.println(s.substring(1, 7));
 		System.out.println(s.contains(s1));
 	}
-
 }
+
