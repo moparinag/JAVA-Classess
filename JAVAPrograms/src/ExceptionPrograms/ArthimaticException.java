@@ -12,6 +12,8 @@ public class ArthimaticException {
 		}
 		catch(Exception e)
 		{
+			div=a/2;
+			System.out.println(div);
 			System.out.println("Arthematic Exception");
 			e.printStackTrace();
 			System.out.println("Exceptionjsdjc");

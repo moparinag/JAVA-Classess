@@ -1,0 +1,16 @@
+package ExceptionPrograms;
+
+public class ThrowKeyword {
+	public static void Validate(int age)
+	{if(age<18)
+	{
+		throw new ArthimaticException("Person is not eligible");
+	}
+		
+	}
+
+	public static void main(String[] args) {
+		
+	}
+
+}

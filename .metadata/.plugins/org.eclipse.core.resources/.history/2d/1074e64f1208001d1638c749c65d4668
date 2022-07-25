@@ -1,0 +1,28 @@
+package ExceptionPrograms;
+
+public class ThrowKeyword {
+	public static void Validate(int age)
+	{if(age<18)
+	{try
+	{
+		throw new Fileread("Person file not found and not eligible");
+//		throw new ArithmeticException("Person is not eligible");
+	}
+	catch(Fileread e)
+	{
+		System.out.println(e.getMessage());
+	}
+	}
+	else
+	{
+		System.out.println("Eligible");
+	}
+		
+	}
+
+	public static void main(String[] args) {
+		ThrowKeyword.Validate(10);
+		ThrowKeyword.Validate(30);
+	}
+
+}

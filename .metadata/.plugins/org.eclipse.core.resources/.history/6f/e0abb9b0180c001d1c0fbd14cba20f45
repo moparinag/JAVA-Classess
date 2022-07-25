@@ -1,0 +1,16 @@
+package Collections;
+
+import java.util.Deque;
+import java.util.LinkedList;
+
+public class DequeProgram1 {
+
+	public static void main(String[] args) {
+Deque dq=new LinkedList();
+dq.offer("567");
+dq.offer("789");
+dq.offer("4546.34325");
+System.out.println(dq);
+	}
+
+}

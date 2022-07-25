@@ -1,0 +1,13 @@
+package Collections;
+
+import java.util.ArrayDeque;
+import java.util.Deque;
+
+public class ArrayDeque1 {
+
+	public static void main(String[] args) {
+		Deque aq=new ArrayDeque();
+		
+	}
+
+}

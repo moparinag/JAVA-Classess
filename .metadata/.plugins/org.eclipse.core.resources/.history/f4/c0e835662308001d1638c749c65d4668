@@ -1,0 +1,16 @@
+package ArrayPrograms;
+
+import java.util.Arrays;
+
+public class Array7 {
+
+	public static void main(String[] args) {
+		int[] Arr= {7,9,5,89,6,44,99,53,8,4,2,9};
+		Arrays.sort(Arr);
+	for(int a:Arr)
+	{
+		System.out.println(a);
+	}
+	}
+
+}
