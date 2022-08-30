@@ -20,6 +20,7 @@ public class LinkedHashmap1 {
 		map.put(8, 68.09);
 		map.put(2, 7654);
 		map.put(10, "Kalyan");
+		map.put(null, 754534);
 		System.out.println(map);
 		System.out.println(map.keySet());
 		System.out.println(map.values());
