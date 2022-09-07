@@ -46,8 +46,16 @@ public class HiddenDivisionPopUp {
 			
 			WebElement search = driver.findElement(By.xpath("//a[text()='Search']"));
 			act.click(search).perform();
+			try
+			{
 			WebElement closepopup = driver.findElement(By.xpath("//span[@class='bgProperties icon20 overlayCrossIcon']"));
 			act.click(closepopup).perform();
+			System.out.println("popup is present");
+			}
+			catch(Exception e)
+			{
+				System.out.println("no popup");
+			}
 		}
 				}
 	
