@@ -1,5 +1,6 @@
 package com.commonlib;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -13,11 +14,12 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 public class ExcelLibraries {
-String Filepath="C:\\Users\\VEGI\\JAVA-Classess\\SeleniumFrameWork\\Data\\Data.xlsx";
+String Filepath="C:\\Users\\VEGI\\JAVA-Classess\\SeleniumFrameWork\\Data\\NopEcommerceData.xlsx";
 	
 	public String ReadData(String Sheet,int RowNum,int ColumnNum) throws EncryptedDocumentException, IOException
 	{
-		FileInputStream fis=new FileInputStream(Filepath);
+		File file=new File(Filepath);
+		FileInputStream fis=new FileInputStream(file);
 		Workbook wb=WorkbookFactory.create(fis);
 		Sheet sheet = wb.getSheet(Sheet);
 		Row row = sheet.getRow(RowNum);

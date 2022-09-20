@@ -14,11 +14,4 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>Data/Data.xlsx</name>
-			<type>1</type>
-			<location>C:/Users/VEGI/JAVA-Classess/SeleniumFrameWork/Data/Data.xlsx</location>
-		</link>
-	</linkedResources>
 </projectDescription>

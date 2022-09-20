@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-14T14:13:06 IST" name="Default suite" finished-at="2022-09-14T14:13:56 IST" duration-ms="49876">
+  <suite started-at="2022-09-20T18:26:40 IST" name="Default suite" finished-at="2022-09-20T18:27:26 IST" duration-ms="46119">
     <groups>
     </groups>
-    <test started-at="2022-09-14T14:13:06 IST" name="Default test" finished-at="2022-09-14T14:13:56 IST" duration-ms="49876">
+    <test started-at="2022-09-20T18:26:40 IST" name="Default test" finished-at="2022-09-20T18:27:26 IST" duration-ms="46119">
       <class name="testngProgms.Test8">
-        <test-method signature="actitime(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testngProgms.Test8@3e2e18f2]" started-at="2022-09-14T14:13:08 IST" name="actitime" data-provider="dataProvider" finished-at="2022-09-14T14:13:22 IST" duration-ms="14676" status="PASS">
+        <test-method signature="actitime(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testngProgms.Test8@3e2e18f2]" started-at="2022-09-20T18:26:43 IST" name="actitime" data-provider="dataProvider" finished-at="2022-09-20T18:26:55 IST" duration-ms="12159" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,7 +28,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- actitime -->
-        <test-method signature="actitime(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testngProgms.Test8@3e2e18f2]" started-at="2022-09-14T14:13:22 IST" name="actitime" data-provider="dataProvider" finished-at="2022-09-14T14:13:39 IST" duration-ms="16383" status="PASS">
+        <test-method signature="actitime(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testngProgms.Test8@3e2e18f2]" started-at="2022-09-20T18:26:55 IST" name="actitime" data-provider="dataProvider" finished-at="2022-09-20T18:27:09 IST" duration-ms="13345" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,7 +49,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- actitime -->
-        <test-method signature="actitime(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testngProgms.Test8@3e2e18f2]" started-at="2022-09-14T14:13:39 IST" name="actitime" data-provider="dataProvider" finished-at="2022-09-14T14:13:56 IST" duration-ms="16953" status="PASS">
+        <test-method signature="actitime(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testngProgms.Test8@3e2e18f2]" started-at="2022-09-20T18:27:09 IST" name="actitime" data-provider="dataProvider" finished-at="2022-09-20T18:27:26 IST" duration-ms="17783" status="PASS">
           <params>
             <param index="0">
               <value>

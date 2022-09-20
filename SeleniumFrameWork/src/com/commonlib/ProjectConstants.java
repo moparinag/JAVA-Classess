@@ -8,8 +8,8 @@ package com.commonlib;
  *
  */
 public interface ProjectConstants {
-String Username="";
-String Password="";
-String browser="";
-String url="";
+String Username="admin@yourstore.com";
+String Password="admin";
+String browser="chrome";
+String url="https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F";
 }

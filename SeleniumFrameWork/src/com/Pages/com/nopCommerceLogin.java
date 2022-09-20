@@ -1,34 +1,39 @@
 package com.Pages.com;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 public class nopCommerceLogin {
+//Utilization
+	public void EnterUsername(String usn) {
+		Username.sendKeys(usn);
+	}
 
-	public WebElement getUsername() {
+	public void EnterPassword(String pwd) {
+		Password.sendKeys(pwd);
+	}
+
+	public void ClickLoginBtn() {
+		LoginBtn.click();;
+	}
+	
+	//initialization
+	public nopCommerceLogin(WebDriver driver)
+	{
+	}
+	
+	public WebElement getUsername()
+	{
 		return Username;
 	}
-
-	public void setUsername(WebElement username) {
-		Username = username;
-	}
-
-	public WebElement getPassword() {
+	public WebElement getPassword()
+	{
 		return Password;
 	}
 
-	public void setPassword(WebElement password) {
-		Password = password;
-	}
-
-	public WebElement getLoginBtn() {
-		return LoginBtn;
-	}
-
-	public void setLoginBtn(WebElement loginBtn) {
-		LoginBtn = loginBtn;
-	}
-
+	//Declaration
 	@FindBy(id="Email")
 	private WebElement Username;
 	

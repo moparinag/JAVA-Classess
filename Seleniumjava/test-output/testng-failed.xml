@@ -3,11 +3,15 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testngProgms.Test8">
+      <class name="testngProgms.Actitime_Test">
         <methods>
-          <include name="actitime" invocation-numbers="0 2"/>
+          <include name="ActiTimeTitleVerify"/>
+          <include name="LogOut"/>
+          <include name="ActiTimeLogin"/>
+          <include name="CloseBrowser"/>
+          <include name="LaunchBrowser"/>
         </methods>
-      </class> <!-- testngProgms.Test8 -->
+      </class> <!-- testngProgms.Actitime_Test -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

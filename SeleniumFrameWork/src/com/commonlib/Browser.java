@@ -11,10 +11,10 @@ public static void getBrowser()
 {
 	if(ProjectConstants.browser.equals("chrome"))
 	{
-		System.setProperty("webdriver.chrome.driver", "");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\VEGI\\JAVA-Classess\\SeleniumFrameWork\\Drivers\\chromedriver.exe");
 		driver=new ChromeDriver();
 	}else if(ProjectConstants.browser.equals("Firefox")){
-		System.setProperty("webdriver.geckodriver.driver", "");
+		System.setProperty("webdriver.geckodriver.driver", "C:\\Users\\VEGI\\JAVA-Classess\\SeleniumFrameWork\\Drivers\\chromedriver.exe");
 		driver=new FirefoxDriver();
 	}
 	
